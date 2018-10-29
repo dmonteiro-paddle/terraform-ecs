@@ -9,5 +9,5 @@ before_install:
 
 #These two steps will effectively validate our terraform and output a list of any changes to be made to our infrastructure
 script:
-  - chmod u+x /terraform-ecs-cluster/build.sh
+  - chmod u+x terraform-ecs-cluster/build.sh
   - ./terraform-ecs-cluster/build.sh
